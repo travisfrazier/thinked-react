@@ -1,0 +1,17 @@
+@import '../../layouts/partials/variables';
+
+.speakers-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: $font-xxl;
+    font-weight: $font-normal;
+  }
+}
+.speakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}

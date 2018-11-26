@@ -1,0 +1,22 @@
+@import '../../layouts/partials/variables';
+
+footer {
+  background-color: $color-blue;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    img {
+      width: 22rem;
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: $font-xxl;
+      font-weight: $font-light;
+      margin-bottom: 2.5rem;
+    }
+  }
+}

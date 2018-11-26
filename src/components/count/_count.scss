@@ -1,0 +1,14 @@
+@import '../../layouts/partials/variables';
+
+#countdown {
+  span {
+    font-size: $font-xl;
+    font-weight: $font-light;
+  }
+  p {
+    @media only screen and (max-width: 700px) {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

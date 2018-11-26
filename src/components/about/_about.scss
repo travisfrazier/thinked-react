@@ -1,0 +1,63 @@
+@import '../../layouts/partials/variables';
+
+.about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    @media only screen and (max-width: 700px) {
+      grid-template-columns: 1fr;
+    }
+    .about-one {
+      display: grid;
+      grid-gap: 1rem;
+      @media only screen and (max-width: 700px) {
+        margin-bottom: 3rem;
+      }
+      h2 {
+        font-size: $font-l;
+        //color: $color-blue;
+      }
+      p {
+        font-weight: $font-light;
+      }
+      h3 {
+        color: $color-blue;
+        font-size: $font-m;
+      }
+      ul {
+        list-style-type: disc;
+        list-style-position: outside;
+        padding-left: 1rem;
+      }
+      li {
+        font-weight: $font-light;
+      }
+    }
+    .about-two {
+      display: grid;
+      align-items: center;
+      text-align: center;
+      //grid-gap: 1rem;
+      h2 {
+        font-size: $font-xxl;
+        font-weight: $font-light;
+        @media only screen and (max-width: 700px) {
+          margin-bottom: 1.5rem;
+        }
+      }
+      iframe {
+        width: 20rem;
+        height: 11.25rem;
+        margin: auto;
+        border: none;
+        @media only screen and (max-width: 700px) {
+          width: 95%;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import './partials/reset';
+@import 'partials/variables';
+
+// Global styles
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $main-font;
+  padding-top: 45px;
+  letter-spacing: 1.1px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+  &:hover {
+    text-decoration: none;
+    color: $color-white;
+    cursor: pointer;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+// Common Styles
+.container {
+  max-width: 1080px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.main-button {
+  background: $color-yellow;
+  padding: 0.75rem 2rem;
+  color: $color-black;
+  font-size: $font-m;
+  font-weight: $font-light;
+  border: none;
+  margin-bottom: 2rem;
+  font-weight: $font-bold;
+  cursor: pointer;
+}
