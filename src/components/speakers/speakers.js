@@ -2,7 +2,7 @@ import React from 'react'
 import './_speakers.scss'
 
 export const Speakers = () => (
-  <section className="speakers-wrapper">
+  <section id="speakers" className="speakers-wrapper">
     <div className="container">
       <h2>Speakers</h2>
       <div className="speakers">
