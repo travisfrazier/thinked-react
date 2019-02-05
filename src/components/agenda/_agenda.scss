@@ -99,4 +99,8 @@
   background-color: white;
   position: relative;
   border-radius: 6px;
+  @media only screen and (max-width: 750px) {
+    padding: 8px;
+    font-size: $font-s;
+  }
 }

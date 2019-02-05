@@ -6,11 +6,14 @@ export const Footer = () => (
     <div className="footer-container">
       <img
         className="katana-logo"
-        src={require('../../images/katana-black.png')}
+        src={require('../../images/far-flung-logo.png')}
       />
       <h2>Join Us</h2>
-      <a href="#">
-        <button className="main-button">GET TICKETS</button>
+      <a
+        href="https://www.eventbrite.com/o/far-flung-tin-can-10929829971"
+        target="_blank"
+      >
+        <button className="main-button">REGISTER</button>
       </a>
     </div>
   </footer>

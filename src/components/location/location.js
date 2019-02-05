@@ -5,8 +5,8 @@ import GoogleMapReact from 'google-map-react'
 class Location extends React.Component {
   static defaultProps = {
     center: {
-      lat: 32.717916,
-      lng: -117.157785,
+      lat: 35.044539,
+      lng: -85.309419,
     },
     zoom: 11,
   }
@@ -15,7 +15,7 @@ class Location extends React.Component {
     return (
       <div id="location" style={{ height: '500px', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: `AIzaSyBmUKguEbTKFiAuUOV-dZ0dpCbKj1CA-D8` }}
+          bootstrapURLKeys={{ key: `AIzaSyDAiHAnNrXwBE4WZXEnmHMpa_YZrRP5rHo` }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         />

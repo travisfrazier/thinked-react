@@ -9,7 +9,7 @@ export const Speakers = () => (
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/corey.jpg')}
+            src={require('../../images/speaker-one.png')}
           />
           <figcaption>
             Corey Zalewski | Director of Lunar Studies <br />
@@ -19,7 +19,7 @@ export const Speakers = () => (
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/frank.png')}
+            src={require('../../images/speaker-three.png')}
           />
           <figcaption>
             Lindsey Frank | Chief Astronomer <br />
@@ -29,7 +29,7 @@ export const Speakers = () => (
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/chris.png')}
+            src={require('../../images/speaker-six.png')}
           />
           <figcaption>
             Chris Dyer | Alien Linguist <br />
@@ -39,7 +39,7 @@ export const Speakers = () => (
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/melissa.png')}
+            src={require('../../images/speaker-five.png')}
           />
           <figcaption>
             Melissa Lopez | Lead Aeronautical Engineer <br />
@@ -49,7 +49,7 @@ export const Speakers = () => (
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/andreas.png')}
+            src={require('../../images/speaker-two.png')}
           />
           <figcaption>
             Andreas Roell | Director of Astrophysics <br />
@@ -57,7 +57,10 @@ export const Speakers = () => (
           </figcaption>
         </figure>
         <figure>
-          <img className="speaker-image" src={require('../../images/jj.png')} />
+          <img
+            className="speaker-image"
+            src={require('../../images/speaker-four.png')}
+          />
           <figcaption>
             JJ Bannasch | Former Astronaut <br />
             <span className="speaker-info">Katana Media</span>

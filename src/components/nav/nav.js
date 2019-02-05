@@ -21,12 +21,18 @@ export class Nav extends React.Component {
   render() {
     return (
       <nav>
-        <div className="mobile-menu">
+        <div onClick={this.toggleMenu} className="mobile-menu">
           <div />
           <div />
           <div />
         </div>
-        <div className="container nav-container">
+        <div
+          className={
+            this.state.showMenu
+              ? 'show container nav-container'
+              : 'container nav-container'
+          }
+        >
           <ul className="nav-links">
             <a href="#about">
               <li>ABOUT</li>
@@ -41,8 +47,11 @@ export class Nav extends React.Component {
               <li>LOCATION</li>
             </a>
           </ul>
-          <a href="#">
-            <button className="purchase-button">GET TICKETS</button>
+          <a
+            href="https://www.eventbrite.com/o/far-flung-tin-can-10929829971"
+            target="_blank"
+          >
+            <button className="purchase-button">GET REGISTERED</button>
           </a>
         </div>
       </nav>

@@ -14,7 +14,7 @@ class Count extends React.Component {
   }
 
   countDown() {
-    const eventDate = new Date('April 19, 2019 9:00:00').getTime()
+    const eventDate = new Date('September 20, 2019 18:00:00').getTime()
     const current = new Date().getTime()
     const distance = eventDate - current
 
