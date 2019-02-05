@@ -26,10 +26,6 @@ export const Header = () => (
           className="google-logo"
           src={require('../../images/far-flung-logo.png')}
         />
-        {/* <img
-          className="katana-logo"
-          src={require('../../images/planet-logo.png')}
-        /> */}
       </div>
     </div>
   </header>

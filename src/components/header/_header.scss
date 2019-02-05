@@ -52,6 +52,9 @@ header {
     .header-text {
       font-weight: $font-light;
       margin-bottom: -1rem;
+      @media only screen and (max-width: 750px) {
+        margin-bottom: 0.25rem;
+      }
     }
     .header-logos {
       display: grid;

@@ -6,7 +6,7 @@ export const About = () => (
   <section id="about" className="about">
     <div className="container about-container">
       <div className="about-one">
-        <h2>How Can Planetary Sectors Make Space Travel more Accessible?</h2>
+        <h2>How Can I Make the Greatest Impact in Far Away Places?</h2>
         <p>
           We’re inviting you to join us for Emanate Summit 2019, a missions
           summit from Far-Flung Tin Can, in beautiful Chattanooga.
