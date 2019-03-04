@@ -9,37 +9,37 @@ export const Agenda = () => (
       <div className="timeline-container left">
         <div className="content">
           <h3>9:00 A.M.</h3>
-          <p>Check in information goes here.</p>
+          <p>Registration and Breakfast</p>
         </div>
       </div>
       <div className="timeline-container right">
         <div className="content">
           <h3>9:30 A.M.</h3>
-          <p>Session One begins / Add session text</p>
+          <p>Session One / Details Soon...</p>
         </div>
       </div>
       <div className="timeline-container left">
         <div className="content">
           <h3>10:30 A.M.</h3>
-          <p>Session Two begins / Session two text here.</p>
+          <p>Break Out One / Details Soon...</p>
         </div>
       </div>
       <div className="timeline-container right">
         <div className="content">
           <h3>Noon</h3>
-          <p>Break for lunch... PIZZA!</p>
+          <p>Break for lunch</p>
         </div>
       </div>
       <div className="timeline-container left">
         <div className="content">
           <h3>1:00 P.M.</h3>
-          <p>Add text here for afternoon.</p>
+          <p>Session Two / Details soon...</p>
         </div>
       </div>
       <div className="timeline-container right">
         <div className="content">
-          <h3>2:00 P.M.</h3>
-          <p>More text in relatin to the end</p>
+          <h3>2:30 P.M.</h3>
+          <p>Gathering at the River / Details soon...</p>
         </div>
       </div>
     </div>

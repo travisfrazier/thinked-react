@@ -12,28 +12,8 @@ export const Speakers = () => (
             src={require('../../images/speaker-one.png')}
           />
           <figcaption>
-            Corey Zalewski | Director of Lunar Studies <br />
-            <span className="speaker-info">Katana Media</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            className="speaker-image"
-            src={require('../../images/speaker-three.png')}
-          />
-          <figcaption>
-            Lindsey Frank | Chief Astronomer <br />
-            <span className="speaker-info">Katana Media</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            className="speaker-image"
-            src={require('../../images/speaker-six.png')}
-          />
-          <figcaption>
-            Chris Dyer | Alien Linguist <br />
-            <span className="speaker-info">Katana Media</span>
+            Kyle Phillippi | President and CEO <br />
+            <span className="speaker-info">Far-Flung Tin Can</span>
           </figcaption>
         </figure>
         <figure>
@@ -42,8 +22,28 @@ export const Speakers = () => (
             src={require('../../images/speaker-five.png')}
           />
           <figcaption>
-            Melissa Lopez | Lead Aeronautical Engineer <br />
-            <span className="speaker-info">Katana Media</span>
+            Chris Barker | COO and Fiance <br />
+            <span className="speaker-info">Far-Flung Tin Can</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            className="speaker-image"
+            src={require('../../images/speaker-six.png')}
+          />
+          <figcaption>
+            Jonathan Etienne | Music Director <br />
+            <span className="speaker-info">Free Chapel</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            className="speaker-image"
+            src={require('../../images/speaker-three.png')}
+          />
+          <figcaption>
+            Marion Phillippi | Translator <br />
+            <span className="speaker-info">Far-Flung Tin Can</span>
           </figcaption>
         </figure>
         <figure>
@@ -52,8 +52,8 @@ export const Speakers = () => (
             src={require('../../images/speaker-two.png')}
           />
           <figcaption>
-            Andreas Roell | Director of Astrophysics <br />
-            <span className="speaker-info">Katana Media</span>
+            Jeremy Caruthers | Composer <br />
+            <span className="speaker-info">Imagind Audio</span>
           </figcaption>
         </figure>
         <figure>
@@ -62,8 +62,8 @@ export const Speakers = () => (
             src={require('../../images/speaker-four.png')}
           />
           <figcaption>
-            JJ Bannasch | Former Astronaut <br />
-            <span className="speaker-info">Katana Media</span>
+            Pauline Howard | Photographer <br />
+            <span className="speaker-info">Pauline Howard LLC</span>
           </figcaption>
         </figure>
       </div>
