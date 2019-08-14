@@ -5,10 +5,10 @@ import GoogleMapReact from 'google-map-react'
 class Location extends React.Component {
   static defaultProps = {
     center: {
-      lat: 35.044539,
-      lng: -85.309419,
+      lat: 35.032442,
+      lng: -85.274738,
     },
-    zoom: 11,
+    zoom: 12,
   }
 
   render() {

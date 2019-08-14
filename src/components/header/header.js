@@ -12,7 +12,7 @@ export const Header = () => (
         Make 2019 a Year of Impact by Finding Your Fit in the World of Missions
       </p>
       <a
-        href="https://www.eventbrite.com/o/far-flung-tin-can-10929829971"
+        href="https://www.eventbrite.com/e/emanate-a-missions-summit-tickets-63389774522"
         target="_blank"
       >
         <button className="main-button">REGISTER</button>

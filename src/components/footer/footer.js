@@ -10,7 +10,7 @@ export const Footer = () => (
       />
       <h2>Join Us</h2>
       <a
-        href="https://www.eventbrite.com/o/far-flung-tin-can-10929829971"
+        href="https://www.eventbrite.com/e/emanate-a-missions-summit-tickets-63389774522"
         target="_blank"
       >
         <button className="main-button">REGISTER</button>

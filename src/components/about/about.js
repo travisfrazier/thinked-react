@@ -11,21 +11,14 @@ export const About = () => (
           We’re inviting you to join us for Emanate Summit 2019, a missions
           summit from Far-Flung Tin Can, in beautiful Chattanooga.
         </p>
-        <h3>What You Can Expect</h3>
-        <ul>
-          <li>
-            Latest information and thought leadership from the Far-Flung Tin Can
-            team.
-          </li>
-          <li>
-            Interactive training from real missionaries from all over the World.
-          </li>
-          <li>
-            Opportunities to lean about upcoming Far-Flung Air trips and how to
-            be a part.
-          </li>
-          <li>Group outreach projects and nightly services.</li>
-        </ul>
+        <h3>Description</h3>
+        <p>God is calling. It's time to run the path He has set, wherever He may lead you. 
+          The Mission field is calling more to go and more to support. Maybe you're considering 
+          one of the two? EMANATE is the weekend where you venture to a deeper place in God. 
+          Let's find where you fit in changing the world! These two days are full of worship 
+          from Far-Flung Tin Can and guest speakers Deven Wallace and Sharo Ramkhelawan in 3 
+          powerful services. We also have workshops, panel discussions, times to connect with 
+          the Far-Flung team, as well as the premiere of our Far-Flung Amazon Special.</p>
       </div>
       <div className="about-two">
         <h2>Join Us</h2>
