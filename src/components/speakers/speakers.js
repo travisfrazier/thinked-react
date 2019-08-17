@@ -9,61 +9,28 @@ export const Speakers = () => (
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/speaker-one.png')}
+            src={require('../../images/one.jpg')}
           />
           <figcaption>
-            Kyle Phillippi | President and CEO <br />
-            <span className="speaker-info">Far-Flung Tin Can</span>
+            Devin Wallace 
           </figcaption>
         </figure>
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/speaker-five.png')}
+            src={require('../../images/two.jpg')}
           />
           <figcaption>
-            Chris Barker | COO and Fiance <br />
-            <span className="speaker-info">Far-Flung Tin Can</span>
+            Sharo Ramkhelawan
           </figcaption>
         </figure>
         <figure>
           <img
             className="speaker-image"
-            src={require('../../images/speaker-six.png')}
+            src={require('../../images/three.jpg')}
           />
           <figcaption>
-            Jonathan Etienne | Music Director <br />
-            <span className="speaker-info">Free Chapel</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            className="speaker-image"
-            src={require('../../images/speaker-three.png')}
-          />
-          <figcaption>
-            Marion Phillippi | Translator <br />
-            <span className="speaker-info">Far-Flung Tin Can</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            className="speaker-image"
-            src={require('../../images/speaker-two.png')}
-          />
-          <figcaption>
-            Jeremy Caruthers | Composer <br />
-            <span className="speaker-info">Imagind Audio</span>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            className="speaker-image"
-            src={require('../../images/speaker-four.png')}
-          />
-          <figcaption>
-            Pauline Howard | Photographer <br />
-            <span className="speaker-info">Pauline Howard LLC</span>
+            Kyle Phillippi
           </figcaption>
         </figure>
       </div>
